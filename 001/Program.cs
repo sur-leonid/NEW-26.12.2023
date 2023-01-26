@@ -1,3 +1,3 @@
 ﻿// 1 С клавиатуры вводится целое число. Вывести квадрат числа (блок-схема)
 
-Console.WriteLine("Hello, World  !");
+Console.WriteLine("Hello, World !");
