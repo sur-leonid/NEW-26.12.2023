@@ -1,13 +1,13 @@
-﻿// С клавиатуры вводятся два вещественных числа. Проверять является ли одно из них квадратом второго (блок-схема)
-
-double a,b;
+﻿// С клавиатуры вводятся два вещественных числа. 
+//Проверять является ли одно из них квадратом второго 
+double a, b;
 string s;
-s=Console.ReadLine();
-a=Convert.toDouble(s);
-b=Console.ReadLine();
-a=Convert.toDouble(s);
+s = Console.ReadLine();
+a = Convert.ToDouble(s);
+s = Console.ReadLine();
+b = Convert.ToDouble(s);
 
-if (a*a = b)
-System.Console.WritrLine("b является квадратом а");
-if (b*b = ba)
-SystemConsole.WritrLine("a является квадратом b");
+if (a * a == b)
+    System.Console.WriteLine("b является квадратом а");
+if (b * b == a)
+    System.Console.WriteLine("a является квадратом b");
