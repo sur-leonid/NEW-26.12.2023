@@ -1,4 +1,4 @@
-﻿// 31. Вывести на экран кубы чисел от 1 до N
+﻿31. Вывести на экран кубы чисел от 1 до N
 System.Console.Write("Введите число:   ");
 string numN = Console.ReadLine();
 int N = Convert.ToInt32(numN);
