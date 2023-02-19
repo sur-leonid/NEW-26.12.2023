@@ -24,16 +24,16 @@ void Swap(ref int a, ref int b)
     a=b;
     b=t;
 }    
-void ChangeArrayRow(int[,] a,int i)
-{
-    //for(int i=0;i<a.GetLength(0);i++)
+// void ChangeArrayRow(int[,] a,int i)
+// {
+//     //for(int i=0;i<a.GetLength(0);i++)
      
-        for(int j=0;j<a.GetLength(1)/2;j++)
-       {
-       Swap(ref a[i,j], ref a[i,a.GetLength(1)-j-1] );
-       }
+//         for(int j=0;j<a.GetLength(1)/2;j++)
+//        {
+//        Swap(ref a[i,j], ref a[i,a.GetLength(1)-j-1] );
+//        }
     
-}
+// }
 
 
 void ChangeArrayRow2(int[,] a,int row1, int row2)
@@ -49,6 +49,10 @@ void ChangeArrayRow2(int[,] a,int row1, int row2)
 
 int[,] a=Random2DArray(3,3,0,9);
 Print2DArray(a);
+
+// ChangeArrayRow(a,a.GetLength(1)-1);
+// System.Console.WriteLine();
+// Print2DArray(a);
 
 ChangeArrayRow2(a,0,a.GetLength(1)-1);
 System.Console.WriteLine();
