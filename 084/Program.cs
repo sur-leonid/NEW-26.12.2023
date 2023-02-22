@@ -10,7 +10,7 @@
                 int sum = 0;
                 foreach (char digit in num)
                     sum += digit - 48;
-                System.Console.WriteLine($"сумма чисел = {sum}:");
+                Console.WriteLine($"сумма чисел = {sum}:");
                 }
         
  
